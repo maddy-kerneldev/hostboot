@@ -1994,7 +1994,7 @@ errlHndl_t bld_fdt_vpd(devTree * i_dt, bool i_smallTree)
             break;
         }
 
-#if 0   //TODO RTC123250 -- re-enable once fixed
+//TODO RTC123250 -- re-enable once fixed
         /***************************************************************/
         /* Now loop on all the dimms in the system and add their spd   */
         /***************************************************************/
@@ -2049,7 +2049,6 @@ errlHndl_t bld_fdt_vpd(devTree * i_dt, bool i_smallTree)
         {
             break;
         }
-#endif
 
     }while(0);
 
